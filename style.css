@@ -94,6 +94,7 @@ footer ul {
   list-style: none;
 }
 a {
+    text-decoration: none;
   color: white;
   font-weight: 700;
 }
@@ -104,6 +105,6 @@ a:active {
   color: darkmagenta;
 }
 
-a:visited {
-  background-color: black;
+a::visited {
+ color: black;
 }
